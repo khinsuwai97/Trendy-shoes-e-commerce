@@ -13,6 +13,7 @@
 - On Deatal Page, you can choose quantity and sizes of shoes and you can click "Add to Cart" for prodcut purchase
 - On Cart Page , you can still choose quantity and will you total price of your shoes
 - for Authentication, you can also sign in , sign up and sign out for website
+- for Trending Button, it is just for scrolling for Trending Products section and it will only work for Home Page and it will not work for other pages
 
 ## Tech Stacks,
 
