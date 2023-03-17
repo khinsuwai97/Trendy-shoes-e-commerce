@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #22b8cf 100%);
+  filter: blur(123px);
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.nav-Link {
+  transition: all 0.3s linear;
+}
+
+.nav-Link a:hover,
+.nav-Link a:active {
+  border-bottom: 3px solid #22b8cf;
+  padding-bottom: 3px;
+  font-weight: 600;
+}
+
+.btn-mobile {
+  transition: all 0.3s ease-in;
+}
+
+.btn-mobile:hover {
+  background: #64cddd;
+  color: #00040f;
+}
+
+.links a {
+  transition: all 0.3s linear;
+  display: block;
+}
+
+.links a:hover {
+  padding-left: 2rem;
+  background: hsl(210, 36%, 96%);
+  color: #22b8cf;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s linear;
+  transform: translate(-100%);
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.97);
+}
+
+.show-sidebar {
+  transform: translate(0);
+  z-index: 999;
+  opacity: 1;
+}
+
+.contact-form {
+  width: 100vw;
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.cart-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
