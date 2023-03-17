@@ -16,7 +16,7 @@ const Cart = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <section id="cart" className="md:pt-22 md:pb-[90px] pb-3 pt-6 ">
+      <section id="cart" className="md:pt-22 md:pb-[90px] pb-3 pt-6  w-screen">
         <div className="max-w-[1280px] my-0 mx-auto py-0 sm:px-[32px] px-[24px]">
           {cart.length === 0 && <EmptyCart />}
 

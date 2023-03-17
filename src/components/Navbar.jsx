@@ -15,8 +15,8 @@ const Navbar = ({ handleToggleNav }) => {
   const totalQuantity = cart.reduce((acc, item) => acc + item.quantity, 0);
 
   return (
-    <header className="w-full py-0 px-[48px] ">
-      <nav className="md:h-[90px] h-[80px] flex items-center justify-between ">
+    <header className="w-full py-0 px-[48px]  ">
+      <nav className="md:h-[90px] h-[80px] flex items-center justify-between  ">
         <div className="sm:hidden flex items-center">
           <button onClick={handleToggleNav}>
             <FaBars className="text-[28px] cursor-pointer text-blueColor" />

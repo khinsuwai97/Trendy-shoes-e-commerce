@@ -5,6 +5,7 @@ import Operations from '../components/HomePage/Operations';
 import Banner from '../components/HomePage/Banner';
 import CTA from '../components/HomePage/CTA';
 import { motion } from 'framer-motion';
+import MainFooter from '../components/MainFooter';
 const Home = () => {
   return (
     <motion.div
@@ -18,6 +19,7 @@ const Home = () => {
       <Operations />
       <Banner />
       <CTA />
+      <MainFooter />
     </motion.div>
   );
 };

@@ -78,7 +78,7 @@ const ProductItemDetail = () => {
                 review={detailOfShoe.rating.count}
               />
               <p className="sm:text-[20px] text-[18px] font-bold font-lato">
-                $ {detailOfShoe.price}
+                $ {detailOfShoe.price.toFixed(2)}
               </p>
               <p className="font-lato text-[16px] leading-[28px] max-w-[600px]">
                 {detailOfShoe.description}
