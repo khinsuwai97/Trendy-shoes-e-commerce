@@ -1,10 +1,10 @@
 import yeezy from '../images/Trending/adidasYeezy.jpg';
 import yeezy2 from '../images/Trending/yeezy4.jpg';
 import airjordan from '../images/Trending/aj.png';
-import airjordan2 from '../images/Trending/airjordan2.jpeg';
+import airjordan2 from '../images/Trending/airjordan2.jpg';
 import dunkLow from '../images/Trending/dunkLow.jpg';
-import dunkLow2 from '../images/Trending/dunkLow2.jpeg';
-import TravisScott from '../images/Trending/travis1-1.jpeg';
+import dunkLow2 from '../images/Trending/dunkLow2.jpg';
+import TravisScott from '../images/Trending/travis1-1.jpg';
 import TravisScott2 from '../images/Trending/travisScott2.jpg';
 
 export const shoesData = [
