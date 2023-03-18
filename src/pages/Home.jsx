@@ -1,10 +1,10 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import Hero from '../components/HomePage/Hero';
 import TrendingProducts from '../components/HomePage/TrendingProducts';
 import Operations from '../components/HomePage/Operations';
 import Banner from '../components/HomePage/Banner';
 import CTA from '../components/HomePage/CTA';
-import { motion } from 'framer-motion';
 import MainFooter from '../components/MainFooter';
 const Home = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import Nike from '../../images/bannerPhoto.png';
 import { Link } from 'react-router-dom';
+import Nike from '../../images/bannerPhoto.png';
 
 const Banner = () => {
   return (

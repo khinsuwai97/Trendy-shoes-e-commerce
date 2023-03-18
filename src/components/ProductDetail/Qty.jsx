@@ -1,7 +1,7 @@
 import React from 'react';
 import { BiPlus, BiMinus } from 'react-icons/bi';
 import { useCartContext } from '../../context/CartProvider';
-const Qty = ({ qty }) => {
+const Qty = () => {
   const { quantity, increaseQty, decreaseQty } = useCartContext();
   return (
     <div className={`flex flex-row items-center gap-4 my-2`}>

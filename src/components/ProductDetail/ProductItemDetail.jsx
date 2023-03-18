@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import Stars from './Stars';
+import { motion } from 'framer-motion';
 import { Button } from '../HomePage/Button';
+import Stars from './Stars';
 import Qty from './Qty';
 import { useProductsContext } from '../../context/ProductsProvider';
 import { useCartContext } from '../../context/CartProvider';
-import { motion } from 'framer-motion';
+
 const sizes = [
   '5',
   '5.5',
@@ -33,7 +34,10 @@ const ProductItemDetail = () => {
   const handleSelectSize = (size) => {
     seSelectSize(size);
   };
-  const detailOfShoe = shoes.find((shoe) => shoe.id === +id);
+
+  const detailOfShoe = useMemo(() => {
+    return shoes.find((shoe) => shoe.id === +id);
+  }, [shoes]);
 
   const handleAddToCart = () => {
     addToCart({

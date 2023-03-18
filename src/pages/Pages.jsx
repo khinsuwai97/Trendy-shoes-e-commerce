@@ -9,7 +9,6 @@ import ProductsPage from './ProductsPage';
 import Home from './Home';
 import ProductDetail from './ProductDetail';
 import CartPage from './CartPage';
-import { AnimatePresence } from 'framer-motion';
 
 const router = createBrowserRouter([
   {
