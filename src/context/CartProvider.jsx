@@ -36,7 +36,6 @@ export const CartProvider = ({ children }) => {
           : item;
       });
 
-      console.log(updatedItems);
       setCart(updatedItems);
     } else {
       setCart([...cart, { ...shoe }]);
