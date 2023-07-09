@@ -1,6 +1,5 @@
 import React from 'react';
 import FilterAndSort from './FilterAndSort';
-
 import SearchBar from './SearchBar';
 import ProductItems from '../HomePage/ProductItems';
 import { useProductsContext } from '../../context/ProductsProvider';
@@ -18,9 +17,11 @@ const Products = () => {
   );
 
   const errorText = (
-    <h5 className="font-lato text-center sm:text-[20px] text-[16px]">
-      Sorry, no products matched your search
-    </h5>
+    <div className="h-screen">
+      <h5 className="font-lato text-center sm:text-[20px] text-[16px]">
+        Sorry, no products matched your search
+      </h5>
+    </div>
   );
 
   return (
